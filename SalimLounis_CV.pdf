@@ -1,5 +1,5 @@
 %PDF-1.4%‚„œ”
-1 0 obj<</Metadata 2 0 R/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 30947/Subtype/XML/Type/Metadata>>stream
+1 0 obj<</Metadata 2 0 R/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 18527/Subtype/XML/Type/Metadata>>stream
 <?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -14,8 +14,8 @@
             xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
          <xmp:CreatorTool>Adobe Photoshop CC 2015 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2016-12-07T09:21:03-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2018-09-09T22:26:53-04:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2018-09-09T22:26:53-04:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2018-09-09T22:33:22-04:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2018-09-09T22:33:22-04:00</xmp:ModifyDate>
          <xmp:Thumbnails>
             <rdf:Alt>
                <rdf:li rdf:parseType="Resource">
@@ -27,7 +27,7 @@
             </rdf:Alt>
          </xmp:Thumbnails>
          <dc:format>application/pdf</dc:format>
-         <xmpMM:InstanceID>uuid:4a86509d-15ac-4c22-b6a7-7415663d267f</xmpMM:InstanceID>
+         <xmpMM:InstanceID>uuid:98ed173d-80a3-4582-beab-d384c699a908</xmpMM:InstanceID>
          <xmpMM:DocumentID>adobe:docid:photoshop:dd9fa044-b4a0-11e8-acb1-fca7400f077b</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:F97F117407206811822AEC494E5DBA9C</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -67,6 +67,13 @@
                   <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:701fb2de-a78d-ba46-857d-d922ab7ccbc1</stEvt:instanceID>
+                  <stEvt:when>2018-09-09T22:33:20-04:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
@@ -76,170 +83,6 @@
          </xmpMM:DerivedFrom>
          <photoshop:ColorMode>3</photoshop:ColorMode>
          <photoshop:ICCProfile>sRGB IEC61966-2.1</photoshop:ICCProfile>
-         <photoshop:TextLayers>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Programmation visuelle et sonore (Python, TouchDesigner, Node-R</photoshop:LayerName>
-                  <photoshop:LayerText>Programmation visuelle et sonore (Python, TouchDesigner, Node-RED, Processing, Max-MSP); Microcontr√¥leur et √©lectronique (Arduino, Teensy, Raspberri Pi, LED, Proth√®ses √©lectroniques); Int√©gration Web (HTML5, CSS3, JQuery, JavaScript, PHP, Git, LESS); Suite Adobe (Premiere Pro, After Effects, Photoshop, Illustrator, InDesign);  Gestions logistiques de productions interactives; Int√©grations d‚Äôinstallations interactives; Forte capacit√© √† travailler en √©quipe et de travailler sur plusieurs projets simultan√©ment; Bilingue  </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Aptitudes</photoshop:LayerName>
-                  <photoshop:LayerText>Aptitudes</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>20 - 22 mai 2016</photoshop:LayerName>
-                  <photoshop:LayerText>20 - 22 mai 2016</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Festival Chromatic                                  Exposition </photoshop:LayerName>
-                  <photoshop:LayerText>Festival Chromatic                                  Exposition de M√©moire Collective; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>01 - 05 juin 2016</photoshop:LayerName>
-                  <photoshop:LayerText>01 - 05 juin 2016</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>MUTEK Montr√©al                                  Participation a</photoshop:LayerName>
-                  <photoshop:LayerText>MUTEK Montr√©al                                  Participation au TouchDesigner Workshop et VJing √† MUTEK 2016;</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>07 oct. 2016</photoshop:LayerName>
-                  <photoshop:LayerText>07 oct. 2016</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>MAPP_MTL                                   Participation au con</photoshop:LayerName>
-                  <photoshop:LayerText>MAPP_MTL                                   Participation au concours Minutes Mapping Corps Humain; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>13 oct. 2016</photoshop:LayerName>
-                  <photoshop:LayerText>13 oct. 2016</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Festival du nouveau cin√©ma                                   Pr</photoshop:LayerName>
-                  <photoshop:LayerText>Festival du nouveau cin√©ma                                   Pr√©sentation des meilleures Minutes Mapping au Festival du nouveau cin√©ma; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>09 - 13 nov. 2016</photoshop:LayerName>
-                  <photoshop:LayerText>09 - 13 nov. 2016</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>MUTEK_IMG                                   Pr√©sentation d‚ÄôABYS</photoshop:LayerName>
-                  <photoshop:LayerText>MUTEK_IMG                                   Pr√©sentation d‚ÄôABYSSE √† l‚Äôexposition de r√©alit√© virtuelle; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>22 f√©vr. - 04 mars 2017</photoshop:LayerName>
-                  <photoshop:LayerText>22 f√©vr. - 04 mars 2017</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Rendez-vous du cin√©ma qu√©becois   Pr√©sentation d‚ÄôABYSSE √† l‚Äôexp</photoshop:LayerName>
-                  <photoshop:LayerText>Rendez-vous du cin√©ma qu√©becois   Pr√©sentation d‚ÄôABYSSE √† l‚Äôexposition de r√©alit√© virtuelle;</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>27 mai - 01 juin 2017</photoshop:LayerName>
-                  <photoshop:LayerText>27 mai - 01 juin 2017</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Festival Chromatic                                  Expostion d</photoshop:LayerName>
-                  <photoshop:LayerText>Festival Chromatic                                  Expostion de Transfert; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>05 oct. 2017 - 06 janv. 2018</photoshop:LayerName>
-                  <photoshop:LayerText>05 oct. 2017 - 06 janv. 2018</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>NeverApart - Automne 2017                                   Pr√©</photoshop:LayerName>
-                  <photoshop:LayerText>NeverApart - Automne 2017                                   Pr√©sentation de OMBRE dans le cadre de l‚Äôexposition Invisible; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>07 - 10 d√©c. 2017</photoshop:LayerName>
-                  <photoshop:LayerText>07 - 10 d√©c. 2017</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>F√™te de Lumi√®res, Lyon Exposition de Chimes; </photoshop:LayerName>
-                  <photoshop:LayerText>F√™te de Lumi√®res, Lyon Exposition de Chimes; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>22 f√©vr. - 04 mars 2018</photoshop:LayerName>
-                  <photoshop:LayerText>22 f√©vr. - 04 mars 2018</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Illuminart Exposition de Chimes; </photoshop:LayerName>
-                  <photoshop:LayerText>Illuminart Exposition de Chimes; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Expositions</photoshop:LayerName>
-                  <photoshop:LayerText>Expositions</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Sept. 2015 - F√©v 2016</photoshop:LayerName>
-                  <photoshop:LayerText>Sept. 2015 - F√©v 2016</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Auxiliaire p√©dagogique                                   Auxili</photoshop:LayerName>
-                  <photoshop:LayerText>Auxiliaire p√©dagogique                                   Auxiliaire p√©dagogique √† l‚ÄôUQAM; Assister l'aide-p√©dagogue dans ces divers t√¢ches.; Assister les finissants dans le cadre de la cr√©ation de leur projet final du baccalaur√©at pr√©sent√© √† la Nuit Blanche de Montr√©al en Lumi√®re;   </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>sept. 2015 - avr. 2017</photoshop:LayerName>
-                  <photoshop:LayerText>sept. 2015 - avr. 2017</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Auxiliaire d'enseignement et p√©dagique, UQAM                   </photoshop:LayerName>
-                  <photoshop:LayerText>Auxiliaire d'enseignement et p√©dagique, UQAM                                   Assiter les √©tudiants dans le cadre des cours:  - Conception visuelle;  - Image de synth√®se et interactivit√©;  - Environnements immersifs et interactivit√©; Assister l'aide-p√©dagogue dans ses diversses t√¢ches.; Assister les finissants dans le cadre de la cr√©ation de leur projet final du baccalaur√©at pr√©sent√© √† la Nuit Blanche de Montr√©al en Lumi√®re;  </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>juil. 2016 - juil. 2017</photoshop:LayerName>
-                  <photoshop:LayerText>juil. 2016 - juil. 2017</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>D√©veloppeur interactif, Pigiste                                </photoshop:LayerName>
-                  <photoshop:LayerText>D√©veloppeur interactif, Pigiste                                   Cr√©ation d‚Äôinstallations interactives √† la pige (Connect&amp;Go, Robert Robert, Lumifest, CCA); D√©veloppement de syst√®mes sur-mesure, en temps r√©el, g√©n√©ratifs et/ou interactifs; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>mars 2017 - sept. 2018</photoshop:LayerName>
-                  <photoshop:LayerText>mars 2017 - sept. 2018</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Programmeur interactif, XYZ Technologie Culturelle             </photoshop:LayerName>
-                  <photoshop:LayerText>Programmeur interactif, XYZ Technologie Culturelle                                   Cr√©ation d‚Äôinstallations interactives permanentes ou semi-permanentes; D√©veloppement de syst√®mes sur-mesure, en temps r√©el, g√©n√©ratifs et/ou interactifs; </photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Exp√©riences</photoshop:LayerName>
-                  <photoshop:LayerText>Exp√©riences</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>2006 - 2011</photoshop:LayerName>
-                  <photoshop:LayerText>2006 - 2011</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>DES  Coll√®ge Durocher Saint-Lambert</photoshop:LayerName>
-                  <photoshop:LayerText>DES  Coll√®ge Durocher Saint-Lambert</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>2011 - 2014</photoshop:LayerName>
-                  <photoshop:LayerText>2011 - 2014</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>DEC - Technique d‚Äôint√©gration multim√©dia                       </photoshop:LayerName>
-                  <photoshop:LayerText>DEC - Technique d‚Äôint√©gration multim√©dia                                   C√âGEP √âdouard-Montpetit</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>2014 - 2017</photoshop:LayerName>
-                  <photoshop:LayerText>2014 - 2017</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>B.A. - Communication (m√©dias interactifs) Universit√© du Qu√©bec </photoshop:LayerName>
-                  <photoshop:LayerText>B.A. - Communication (m√©dias interactifs) Universit√© du Qu√©bec √Ä Montr√©al</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Cursus scolaire</photoshop:LayerName>
-                  <photoshop:LayerText>Cursus scolaire</photoshop:LayerText>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <photoshop:LayerName>Salim Lounis lounissalim@gmail.com salimlounis.com</photoshop:LayerName>
-                  <photoshop:LayerText>Salim Lounis lounissalim@gmail.com salimlounis.com</photoshop:LayerText>
-               </rdf:li>
-            </rdf:Bag>
-         </photoshop:TextLayers>
          <pdf:Producer>Adobe Photoshop for Windows -- Image Conversion Plug-in</pdf:Producer>
       </rdf:Description>
    </rdf:RDF>
@@ -268,7 +111,7 @@
 <?xpacket end="w"?>
 endstreamendobj3 0 obj<</Count 1/Kids[5 0 R]/Type/Pages>>endobj5 0 obj<</ArtBox[0.0 0.0 612.0 792.0]/Contents 6 0 R/MediaBox[0.0 0.0 612.0 792.0]/Parent 3 0 R/Resources 7 0 R/Type/Page>>endobj6 0 obj<</Length 552>>stream
 qq612 0 0 792 0 0 cm/Im0 Doq0.0980392 0.1630302 m0.0980392 0.1636362 l0.9019608 0.1636362 l0.9019608 0.1630302 l0.0980392 0.1630302 lhW*n/Im1 DoQq0.0980392 0.4693936 m0.0980392 0.4699995 l0.9019608 0.4699995 l0.9019608 0.4693936 l0.0980392 0.4693936 lhW*n/Im2 DoQq0.0980392 0.7651521 m0.0980392 0.7657580 l0.9019608 0.7657580 l0.9019608 0.7651521 l0.0980392 0.7651521 lhW*n/Im3 DoQq0.0980392 0.8984843 m0.0980392 0.8990915 l0.9019608 0.8990915 l0.9019608 0.8984843 l0.0980392 0.8984843 lhW*n/Im4 DoQQQ
-endstreamendobj7 0 obj<</ColorSpace<</DefaultRGB 8 0 R>>/ExtGState<</GS1<</op true>>>>/ProcSet[/PDF/Text/ImageB/ImageC/ImageI]/XObject<</Im0 9 0 R/Im1 10 0 R/Im2 11 0 R/Im3 12 0 R/Im4 13 0 R>>>>endobj9 0 obj<</BitsPerComponent 8/ColorSpace/DeviceRGB/DecodeParms<</Blend 1/ColorTransform 1/Colors 3/Columns 2550/HSamples[1 1 1 1]/QFactor 0.0/Rows 3300/VSamples[1 1 1 1]>>/Filter/DCTDecode/Height 3300/ImageName/ps22D7.jpg/Intent/RelativeColorimetric/Length 1071852/Name/ps22D7.jpg/Subtype/Image/Type/XObject/Width 2550>>stream
+endstreamendobj7 0 obj<</ColorSpace<</DefaultRGB 8 0 R>>/ExtGState<</GS1<</op true>>>>/ProcSet[/PDF/Text/ImageB/ImageC/ImageI]/XObject<</Im0 9 0 R/Im1 10 0 R/Im2 11 0 R/Im3 12 0 R/Im4 13 0 R>>>>endobj9 0 obj<</BitsPerComponent 8/ColorSpace/DeviceRGB/DecodeParms<</Blend 1/ColorTransform 1/Colors 3/Columns 2550/HSamples[1 1 1 1]/QFactor 0.0/Rows 3300/VSamples[1 1 1 1]>>/Filter/DCTDecode/Height 3300/ImageName/ps3599.jpg/Intent/RelativeColorimetric/Length 1071852/Name/ps3599.jpg/Subtype/Image/Type/XObject/Width 2550>>stream
 ˇÿˇÓ Adobe d    ˇ€ ≈ ˇ› ?ˇ¿ ‰	ˆ  ˇƒ¢         	
               	
      { 	
@@ -2939,26 +2782,26 @@ HâúñyTSw«o…ûêï∞√c[Ä∞ê5,	ãÏ àBHBK!aP™V X∑—=u∫∏éµ:X˜©K‘√®£„–Z\;v^‡
 Ó˜wöG‰	x2^9Øá˜{ﬁo∆úchûkﬁ`>b˛â˘$·ªÒe¸J~ˇ ˇ:ˇ•ÖùEåÖ bç≈~ãÀœ,m,£-Uñ›ñ,ØYæ¥¬¨‚≠*¨6Xç[›±F≠=≠3¨Î≠∑Yü±~d√≥	∑Qÿt€¥πi€z⁄f⁄6€~`{¡v÷Œﬁ.—Ng∑≈Óî›#{æ}¥}π˝Ä˝ßˆ∏ëááœ˛éôc1X%6Ñù∆fm•éF«ééØúN9NNúÓ8Sù≈Œ•ŒŒ'ùg\\R]Z\ˆ∫‹t•∏ä]À\7ªûu}Ê&pÀs[Â6Óv_`)ê	ö{∑›ÓQÓ5Ó£ÓW=àbè
 è≠_z¬ûAûeû#ûΩ`Ø`/ç◊VØKﬁÔPo≠˜®˜!]#¨ÓN˘}R|:|∆}˚∫¯¯n=Î˚⁄/»Ø“oÃÔñà#JuàéâæÛ˜ÙW¯è¯_`$¥	¯6–+P∏-ØA‹†‘†UA'É˛¨ﬁ¸ ƒ%§8‰Ωêbû8]‹+˛<î⁄˙qËã∞‡0Cÿ¡∞Ü√+¬˜Ñﬂ_ X†Z0∂‡nÑSÑ<bGƒd$Y˘~‰dîcî<j4ÍõhÁheÙŒË{11Â1˚b«˙≈Íc?ä}&	ì,ìèC‚„∫„&‚9Ò9Ò√Ò_'8%®ˆ&Ã$%6'ó§…““2;ôB∂[6ìí¥,Èt2=9+y8˘õœ} ±T85)ucÍÌÖÆµ«”@ö,mc⁄ùtAzM˙ü2àÈ#Àe∂dûÕ‚feÌ…zöõ›ó}+«=«òs2óô[òª;˜Y^\^ﬁ‰"ﬂEÀùœ∑Œ◊‰) ‰Ï,ò]øx”‚È¬†¬Æ¬ÎKKñú[jΩ¥rÈ'EÃ"y—°bBq^Òû‚‰iÚQ˘lâ¨‰ΩíÖD±YÒP≠P>PE®˙U˜J#J˚KÔ´#‘’ ¢ Ài$öaÕ∑Â“ÚÌÂœ*“*>¨¯±2ØÚ@π™∏Í®ñ£≠–ûÆ∂Øn®æ§Û“uÈ&k¬j6’ÃËìı;k°⁄%µG<¸gÍÇ—›∏“8UY7R˜º>∑˛PªA€p°—≥qM„Ω¶Ñ¶ﬂ5£ÕäÊì-é-Ì-SÀbñÌhÖZKZO∂9∑u∂M/O\æ´ù⁄^—˛óøé˛éÔW‰≠8÷i◊πºÛÓ ƒï{ªÃ∫Ù]7VÖØ⁄æ]≠Y=±&`Õñ5Øªï›_Ù¯ıˆ¸–´Ë˝b≠hÌ–⁄◊ïÆõËÓ€∂û∏^ª˛˙Ü®ª˙Ÿ˝M˝w7¶n<<Ät|ø©h”π¡¿¡Ìõ©õçõ'á˛•Z˛Lò∏ô$ôêô¸öhö’õBõØúúâú˜ùdù“û@ûÆüüãü˙†i†ÿ°G°∂¢&¢ñ££v£Ê§V§«•8•©¶¶ã¶˝ßnß‡®R®ƒ©7©©™™è´´u´È¨\¨–≠D≠∏Æ-Æ°ØØã∞ ∞u∞Í±`±÷≤K≤¬≥8≥Æ¥%¥úµµä∂∂y∂∑h∑‡∏Y∏—πJπ¬∫;∫µª.ªßº!ºõΩΩèæ
 æÑæˇøzøı¿p¿Ï¡g¡„¬_¬€√X√‘ƒQƒŒ≈K≈»∆F∆√«A«ø»=»º…:…π 8 ∑À6À∂Ã5ÃµÕ5ÕµŒ6Œ∂œ7œ∏–9–∫—<—æ“?“¡”D”∆‘I‘À’N’—÷U÷ÿ◊\◊‡ÿdÿËŸlŸÒ⁄v⁄˚€Ä‹‹ä››ñﬁﬁ¢ﬂ)ﬂØ‡6‡Ω·D·Ã‚S‚€„c„Î‰s‰¸ÂÑÊÊñÁÁ©Ë2ËºÈFÈ–Í[ÍÂÎpÎ˚ÏÜÌÌúÓ(Ó¥Ô@ÔÃXÂÒrÒˇÚåÛÛßÙ4Ù¬ıPıﬁˆmˆ˚˜ä¯¯®˘8˘«˙W˙Á˚w¸¸ò˝)˝∫˛K˛‹ˇmˇˇ òÛ¸
-endstreamendobj15 0 obj<</CreationDate(D:20161207092103-05'00')/Creator(Adobe Photoshop CC 2015 \(Windows\))/ModDate(D:20180909222653-04'00')/Producer(Adobe Photoshop for Windows -- Image Conversion Plug-in)>>endobjxref
+endstreamendobj15 0 obj<</CreationDate(D:20161207092103-05'00')/Creator(Adobe Photoshop CC 2015 \(Windows\))/ModDate(D:20180909223322-04'00')/Producer(Adobe Photoshop for Windows -- Image Conversion Plug-in)>>endobjxref
 0 16
 0000000000 65535 f
 0000000016 00000 n
 0000000076 00000 n
-0000031101 00000 n
+0000018681 00000 n
 0000000000 00000 f
-0000031152 00000 n
-0000031284 00000 n
-0000031886 00000 n
-0001509717 00000 n
-0000032074 00000 n
-0001104273 00000 n
-0001205634 00000 n
-0001306995 00000 n
-0001408356 00000 n
-0001509751 00000 n
-0001512401 00000 n
+0000018732 00000 n
+0000018864 00000 n
+0000019466 00000 n
+0001497297 00000 n
+0000019654 00000 n
+0001091853 00000 n
+0001193214 00000 n
+0001294575 00000 n
+0001395936 00000 n
+0001497331 00000 n
+0001499981 00000 n
 trailer
-<</Size 16/Root 1 0 R/Info 15 0 R/ID[<64B8B8EBE2D69241B3FE40ECB51FA31A><426139781B64014DAC36DD437883B446>]>>
+<</Size 16/Root 1 0 R/Info 15 0 R/ID[<46705E8C0D7EB648BB355E399D92C5B4><AA15D853658CAF41ABC8F0D401DE2BB0>]>>
 startxref
-1512604
+1500184
 %%EOF
