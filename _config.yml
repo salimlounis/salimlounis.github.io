@@ -1,0 +1,27 @@
+# Site settings
+title: "Salim Lounis - "
+name: Salim Lounis
+job: "Développeur Full-Stack & interactif"
+baseurl: "" 
+url: "https://salimlounis.com"
+clean_url: "salimlounis.com"
+email: lounissalim@gmail.com
+phone: "+1 438.825.0253"
+phone_number: "+14388250253"
+footer: "© Salim Lounis. All rights reserved."
+
+# Build settings
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
