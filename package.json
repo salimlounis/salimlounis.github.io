@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "predeploy": "yarn build && yarn export",
-    "deploy": "gh-pages -d out",
+    "pages": "gh-pages -d out",
+    "deploy": "yarn build && yarn pages",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
