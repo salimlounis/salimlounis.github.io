@@ -44,7 +44,7 @@ export default async function About() {
             </p>
             <p className="mb1">
               Si vous avez des demandes, des commentaires ou des questions,
-              n'hésitez pas à me contacter 👇{" "}
+              n&apos;hésitez pas à me contacter 👇{" "}
               <p>
                 <a href="mailto:lounissalim@gmail.com" className="regular">
                   lounissalim@gmail.com

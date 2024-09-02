@@ -1,15 +1,20 @@
 {
   "name": "nxt-portfolio",
+  "homepage": "https://salimlounis.github.io/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "predeploy": "yarn build && yarn export",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
+    "gh-pages": "^6.1.1",
     "gray-matter": "^4.0.3",
     "next": "14.2.7",
     "path": "^0.12.7",
