@@ -8,7 +8,7 @@ images:
   - instance3.jpg
   - instance4.jpg
 
-video: http://player.vimeo.com/video/207954294
+video: https://player.vimeo.com/video/207954294
 
 link: https://vimeo.com/projetinstance
 ---

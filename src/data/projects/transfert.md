@@ -7,7 +7,7 @@ images:
   - transfert1.jpg
   - transfert2.jpg
   - transfert3.jpg
-video: http://player.vimeo.com/video/232264917
+video: https://player.vimeo.com/video/232264917
 ---
 
 Transfert est une installation interactive inspirée de l’homéostasie. L’installation consiste en un système simple et stable évoluant brutalement à l’apparition d’interacteurs. Celui-ci s’adapte à la présence d’une personne jusqu’à atteindre une nouvelle stabilité.

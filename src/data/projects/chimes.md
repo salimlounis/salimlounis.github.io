@@ -9,7 +9,7 @@ images:
   - chimes3.jpg
   - chimes4.jpg
   - chimes5.jpg
-video: http://player.vimeo.com/video/273702775
+video: https://player.vimeo.com/video/273702775
 link: https://qdsinternational.com/installations/chimes/
 ---
 

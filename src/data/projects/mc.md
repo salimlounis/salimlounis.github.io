@@ -10,7 +10,7 @@ images:
   - memoire4.jpg
   - memoire5.jpg
   - memoire6.jpg
-video: http://player.vimeo.com/video/175131447
+video: https://player.vimeo.com/video/175131447
 ---
 
 Oeuvre interactive qui s’inspirent des différentes phases du fonctionnement cognitif de la mémoire: L’encodage, la rétention, la consolidation et la récupération du souvenir. Cette installation reprend ces phases afin de faire vivre une expérience sonore et visuelle à l'interacteur.

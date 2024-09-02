@@ -10,7 +10,7 @@ images:
   - hvbrd2.jpg
   - hvbrd3.jpg
 
-video: http://player.vimeo.com/video/159735751
+video: https://player.vimeo.com/video/159735751
 #link: https://www.youtube.com/watch?v=A00-7ozN-N8
 ---
 

@@ -6,7 +6,7 @@ cover: "abysse.jpg"
 images:
   - 1.jpg
   - 2.jpg
-video: http://player.vimeo.com/video/267300855
+video: https://player.vimeo.com/video/267300855
 ---
 
 Installation immersive qui propose une expérience introspective en détournant les codes de la réalité virtuelle. L’interacteur est amené à découvrir l’histoire du protagoniste en étant plongé dans ses états d’esprits. ABYSSE exploite la claustration du casque de réalité virtuelle pour représenter les thèmes de la dépression, de l’isolation et de la solitude.

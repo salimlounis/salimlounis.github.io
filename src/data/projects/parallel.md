@@ -7,7 +7,7 @@ images:
   - 5.png
   - 8.png
   - 2.png
-video: http://player.vimeo.com/video/314518168
+video: https://player.vimeo.com/video/314518168
 ---
 
 PARALLEL est la toute première performance audiovisuelle du [Collectif Blackbox](http://collectifblackbox.com/).

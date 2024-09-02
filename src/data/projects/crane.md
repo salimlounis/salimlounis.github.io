@@ -7,7 +7,7 @@ images:
   - crane2.jpg
   - crane1.jpg
   - crane3.jpg
-video: http://player.vimeo.com/video/226565453
+video: https://player.vimeo.com/video/226565453
 ---
 
 Rapprochement du corps physique et virtuel.

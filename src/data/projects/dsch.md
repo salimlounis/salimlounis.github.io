@@ -10,7 +10,7 @@ images:
   - molinari2.jpg
   - molinari5.jpg
   - molinari6.jpg
-video: http://player.vimeo.com/video/198605998
+video: https://player.vimeo.com/video/198605998
 link: https://www.youtube.com/watch?v=A00-7ozN-N8
 ---
 
