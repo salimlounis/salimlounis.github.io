@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages": "gh-pages -d out",
+    "pages": "gh-pages -d out --nojekyll --cname salimlounis.com",
     "deploy": "yarn build && yarn pages",
     "start": "next start",
     "lint": "next lint",
