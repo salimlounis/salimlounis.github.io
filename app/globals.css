@@ -1,0 +1,307 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Define CSS variables */
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #999;
+}
+
+/* Global Styles */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.App {
+  width: 100%;
+  background-color: var(--white);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* GlobalStyles.module.css */
+
+.full {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.wrapper {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1250px; /* Optional: Set a max-width if needed */
+  margin: 0 auto;
+  padding: 0 0px; /* Optional: Add some padding if needed */
+}
+
+/* Header */
+
+.header {
+  height: 80px;
+  display: flex;
+}
+
+.logo {
+  font-size: 1.1em;
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  li {
+    margin-left: 30px;
+    font-size: 0.95em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #999;
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: #000;
+  }
+
+  .active {
+    color: #000;
+  }
+}
+
+/* Footer */
+.content {
+  flex: 1; /* This will allow content to grow and push footer down */
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff; /* Optional: Set background color */
+  font-size: 0.5em;
+  padding: 10px 24px; /* Add padding as needed */
+  text-align: right; /* Center the footer content */
+}
+
+/* Project Grid Styles */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -24px; /* gutter size offset */
+}
+
+.my-masonry-grid_column {
+  padding-left: 24px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column span {
+  width: 100% !important;
+}
+
+/* Item Styling */
+.item {
+  margin: auto auto;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
+
+/* Info Box */
+.info {
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: black; /* Adjust the color as needed */
+  z-index: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.info h2 {
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: 45%;
+}
+
+.info h3 {
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: 47.5%;
+}
+
+.info:hover {
+  opacity: 0.8;
+}
+
+/* Info Box */
+
+.project::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.project {
+  padding-top: 3.3333333333333335rem;
+  padding-bottom: 8.333333333333334rem;
+}
+
+h1 {
+  font-size: 1.1em;
+  padding-bottom: 1.1111111111111112rem;
+}
+
+.column {
+  margin: auto;
+  width: 100%;
+}
+
+.text {
+  width: 30%;
+  font-size: 0.75em;
+  line-height: 25px;
+  float: left;
+
+  a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+    color: grey;
+
+    &:hover {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      color: black;
+    }
+  }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.realisation {
+  .title {
+    position: fixed;
+  }
+}
+
+.media {
+  width: 60%;
+  float: right;
+  padding-top: inherit;
+  img {
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+}
+.about {
+  width: 30%;
+  font-size: 0.75em;
+  line-height: 25px;
+  float: left;
+
+  a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+    color: grey;
+
+    &:hover {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      color: black;
+    }
+  }
+}
+
+.mb1 {
+  margin-bottom: 20px;
+}
