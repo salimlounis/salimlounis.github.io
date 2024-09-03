@@ -9,7 +9,7 @@ export default async function About() {
       <div className="header"></div>
       <div className="wrapper project">
         <div className="">
-          <div className="about">
+          <div className="text">
             <p className="mb1">
               Je suis un artiste multidisciplinaire et développeur logiciel,
               spécialisé dans les domaines de la technologie en temps réel et de

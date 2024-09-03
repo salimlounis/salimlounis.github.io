@@ -22,11 +22,18 @@ export default function Projects({ projectslist, workslist }: ProjectsProps) {
     }
   });
 
+  const breakpointColumnsObj = {
+    default: 3,
+    1200: 3,
+    760: 1,
+    480: 1,
+  };
+
   return (
-    <div id="warpSite" className="full white">
+    <div id="warpSite" className="full">
       <div className="wrapper">
         <Masonry
-          breakpointCols={3}
+          breakpointCols={breakpointColumnsObj}
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >

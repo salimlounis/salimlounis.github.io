@@ -1,11 +1,16 @@
+/* Tailwind Imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Root Variables */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --white: #fff;
+  --black: #000;
+  --grey: #999;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,17 +21,11 @@
   }
 }
 
+/* Tailwind Utility Extensions */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-/* Define CSS variables */
-:root {
-  --white: #fff;
-  --black: #000;
-  --grey: #999;
 }
 
 /* Global Styles */
@@ -40,39 +39,59 @@ body {
   letter-spacing: 1px;
 }
 
-.App {
+.App,
+.full {
   width: 100%;
   background-color: var(--white);
+  margin: 0 auto;
 }
+
 main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* GlobalStyles.module.css */
-
-.full {
-  width: 100%;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-.fixed {
+.fixed,
+.infoSection {
   position: fixed;
 }
-
-.white {
-  background-color: #fff;
+.fixed {
+  z-index: 2;
 }
 
 .wrapper {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1250px; /* Optional: Set a max-width if needed */
+  max-width: 1260px;
   margin: 0 auto;
-  padding: 0 0px; /* Optional: Add some padding if needed */
+  padding: 0;
+}
+.no-scroll {
+  overflow: hidden; /* Prevents scrolling */
+  height: 100vh; /* Ensures the page doesn’t scroll */
+}
+
+/* Responsive Styles */
+/* NOTE: important res changes are 1260px, 960px, 760px and 540px */
+
+@media (max-width: 1260px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .wrapper {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .wrapper {
+    padding: 0 20px;
+  }
 }
 
 /* Header */
@@ -80,46 +99,124 @@ main {
 .header {
   height: 80px;
   display: flex;
+  align-items: center;
 }
 
 .logo {
   font-size: 1.1em;
   line-height: 50px;
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 
-.menu {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 30px;
+  font-size: 0.95em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--grey);
+  transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover,
+.menu .active {
+  color: var(--black);
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: flex;
+}
+
+@media (max-width: 960px) {
+  /* menu animation */
+  .menu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: var(--white);
+    width: 100%;
+    z-index: 10;
+    font-size: 1.9em;
+    align-items: center;
+    padding-top: 105px;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+
+    transition: opacity 0.5s ease, visibility 0.5s;
+    transition-delay: 0.333s;
+  }
+  .menu li {
+    padding-top: 15px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: transform 1s step-end, opacity 0.5s ease;
+  }
+  .menu ul.active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s;
+  }
+  .menu ul.active li {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition-delay: 0.33s;
+  }
+  .menu-toggle {
     display: flex;
+    z-index: 20;
+  }
+  .menu-toggle-icon {
+    font-size: 2.1rem;
+    color: var(--black);
+    transition: transform 0.333s ease, opacity 0s ease;
   }
 
-  li {
-    margin-left: 30px;
-    font-size: 0.95em;
+  /* icon animation */
+  .menu-toggle .ri-close-large-line {
+    opacity: 0;
+    transform: rotate(-90deg);
+    position: absolute;
   }
-
-  a {
-    text-decoration: none;
-    color: #999;
-    transition: color 0.2s ease-in-out;
+  .menu-toggle .ri-menu-line {
+    opacity: 1;
+    transform: rotate(180deg);
   }
-
-  a:hover {
-    color: #000;
+  .menu-toggle.open .ri-menu-line {
+    opacity: 0;
+    transform: rotate(45deg);
   }
-
-  .active {
-    color: #000;
+  .menu-toggle.open .ri-close-large-line {
+    opacity: 1;
+    transform: rotate(90deg);
   }
 }
 
 /* Footer */
 .content {
-  flex: 1; /* This will allow content to grow and push footer down */
+  flex: 1;
 }
 
 .footer {
@@ -128,20 +225,21 @@ main {
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: #fff; /* Optional: Set background color */
+  background-color: var(--white);
   font-size: 0.5em;
-  padding: 10px 24px; /* Add padding as needed */
-  text-align: right; /* Center the footer content */
+  padding: 10px 24px;
+  text-align: right;
 }
 
+/* Projects */
 /* Project Grid Styles */
 .my-masonry-grid {
   display: flex;
-  margin-left: -24px; /* gutter size offset */
+  margin-left: -24px;
 }
 
 .my-masonry-grid_column {
-  padding-left: 24px; /* gutter size */
+  padding-left: 24px;
   background-clip: padding-box;
 }
 
@@ -150,7 +248,7 @@ main {
 }
 
 /* Item Styling */
-.item {
+.gridItem {
   margin: auto auto;
   position: relative;
   margin-bottom: 24px;
@@ -163,32 +261,32 @@ main {
 
 /* Info Box */
 .info {
-  opacity: 0;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  right: 0;
   position: absolute;
-  background-color: black; /* Adjust the color as needed */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: black;
   z-index: 0;
-  transition: all 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
-.info h2 {
-  font-size: 1.1em;
+.info h2,
+.info h3 {
   color: white;
   text-align: center;
   position: relative;
   z-index: 2;
+}
+
+.info h2 {
+  font-size: 1.1em;
   top: 45%;
 }
 
 .info h3 {
   font-size: 0.8em;
-  color: white;
-  text-align: center;
-  position: relative;
-  z-index: 2;
   top: 47.5%;
 }
 
@@ -196,26 +294,63 @@ main {
   opacity: 0.8;
 }
 
-/* Info Box */
+/* Responsive Styles */
 
+@media (max-width: 1260px) {
+  .my-masonry-grid {
+    margin-left: -20px;
+  }
+  .my-masonry-grid_column {
+    padding-left: 20px;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .my-masonry-grid {
+    margin-left: 0px;
+  }
+  .my-masonry-grid_column {
+    padding-left: 0px;
+  }
+  .item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .my-masonry-grid {
+    margin-left: -20px;
+  }
+  .my-masonry-grid_column {
+    padding-left: 20px;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+}
+/* Project Page */
+
+.project {
+  padding-top: 3.3333333333333335rem;
+  padding-bottom: 8.333333333333334rem;
+}
 .project::after {
   content: "";
   display: table;
   clear: both;
 }
-.project {
-  padding-top: 3.3333333333333335rem;
-  padding-bottom: 8.333333333333334rem;
+
+.column {
+  margin: auto;
+  width: 100%;
 }
 
 h1 {
   font-size: 1.1em;
   padding-bottom: 1.1111111111111112rem;
-}
-
-.column {
-  margin: auto;
-  width: 100%;
 }
 
 .text {
@@ -273,35 +408,55 @@ h1 {
   padding-top: inherit;
   img {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 2rem;
     display: block;
-  }
-}
-.about {
-  width: 30%;
-  font-size: 0.75em;
-  line-height: 25px;
-  float: left;
-
-  a {
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-
-    color: grey;
-
-    &:hover {
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      color: black;
-    }
   }
 }
 
 .mb1 {
   margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+/* NOTE: important res changes are 1260px, 960px, 760px and 480px */
+
+@media (max-width: 1260px) {
+  .text {
+    width: 40%;
+  }
+  .media {
+    width: 57%;
+    img {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .infoSection {
+    position: relative;
+  }
+  .text {
+    float: none;
+    width: 100%;
+  }
+  .media {
+    width: 100%;
+    padding-top: 30px;
+    img {
+      margin-top: 30px;
+    }
+  }
+  .mb1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 760px) {
+  .media {
+    padding-top: 20px;
+    img {
+      margin-top: 20px;
+    }
+  }
 }

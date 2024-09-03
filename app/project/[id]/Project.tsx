@@ -12,7 +12,7 @@ const ProjectContent: React.FC<ProjectContentProps> = ({ project }) => {
   const texte = project.content || "No content available";
   return (
     <div className="wrapper project">
-      <div className="fixed">
+      <div className="infoSection">
         <h1>{project.title}</h1>
         <div className="text">
           <MarkdownRenderer content={texte} />

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Courier_Prime } from "next/font/google";
+import "remixicon/fonts/remixicon.css";
 import "./globals.css";
 
 const courierPrime = Courier_Prime({
@@ -11,7 +12,7 @@ const courierPrime = Courier_Prime({
 
 export const metadata: Metadata = {
   title: "Salim Lounis",
-  description: "Salim Lounis Portfolio",
+  description: "Salim Lounis - Portfolio",
 };
 
 export default function RootLayout({
