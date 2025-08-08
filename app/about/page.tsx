@@ -11,21 +11,14 @@ export default async function About() {
         <div className="">
           <div className="text">
             <p className="mb1">
-              Je suis un artiste multidisciplinaire et développeur logiciel,
-              spécialisé dans les domaines de la technologie en temps réel et de
-              la créativité.
+              Je suis un artiste multidisciplinaire et développeur logiciel
+              senior avec plus de 10 ans d’expérience dans la création
+              d'installations interactives.
             </p>
             <p className="mb1">
-              Je travaille actuellement en tant que développeur logiciel senior
-              @
-              <a
-                href="https://www.productshop.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Product Shop
-              </a>
-              .
+              Actuellement à mon compte. Si vous avez une idée, un défi
+              technologique ou un projet artistique en tête, n'hésitez pas à me
+              contacter.
             </p>
             <p className="mb1">
               ⅕ du{" "}
@@ -44,16 +37,14 @@ export default async function About() {
             </p>
             <p className="mb1">
               Si vous avez des demandes, des commentaires ou des questions,
-              n&apos;hésitez pas à me contacter 👇{" "}
-              <p>
-                <a href="mailto:lounissalim@gmail.com" className="regular">
-                  lounissalim@gmail.com
-                </a>
-              </p>
+              n&apos;hésitez pas à me contacter 👉{" "}
+              <a href="mailto:lounissalim@gmail.com" className="regular">
+                lounissalim@gmail.com
+              </a>
             </p>
             <p className="mb1">
               <a
-                href="https://www.notion.so/Salim-Lounis-8bfc3e8a5f344098898722a1cdc77869"
+                href="https://sulfuric-twill-0a4.notion.site/Salim-Lounis-8bfc3e8a5f344098898722a1cdc77869"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -27,6 +27,7 @@ yarn-error.log*
 
 # MacOS
 .DS_Store
+._*
 
 # Windows
 Thumbs.db

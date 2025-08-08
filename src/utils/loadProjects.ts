@@ -17,6 +17,7 @@ export function loadProjects(directory: string) {
       id: filename.replace(/\.md$/, ""),
       title: data.title,
       year: data.year,
+      agence: data.agence || "personnal project",
       priority: data.priority,
       cover: data.cover,
       images: data.images,
@@ -30,8 +31,8 @@ export function loadProjects(directory: string) {
 }
 
 // Function to load a single project by ID
-export function loadProjectById(id: string) {
-  const projectsPath = path.join(fileDirectory, `projects`);
+export function loadProjectById(directory: string, id: string) {
+  const projectsPath = path.join(fileDirectory, directory);
   const filePath = path.join(projectsPath, `${id}.md`);
   const fileContents = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(fileContents);

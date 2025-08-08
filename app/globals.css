@@ -63,10 +63,8 @@ main {
 .wrapper {
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
-  padding: 0;
 }
 .no-scroll {
   overflow: hidden; /* Prevents scrolling */
@@ -78,6 +76,7 @@ main {
 
 @media (max-width: 1260px) {
   .wrapper {
+    width: 100%;
     padding: 0 20px;
   }
 }
@@ -103,7 +102,7 @@ main {
 }
 
 .logo {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 50px;
   text-decoration: none;
   color: var(--black);
@@ -118,7 +117,7 @@ main {
 
 .menu li {
   margin-left: 30px;
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 
 .menu a {
@@ -233,6 +232,23 @@ main {
 
 /* Projects */
 /* Project Grid Styles */
+
+.menu button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 0.9em;
+  color: var(--grey);
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu button:hover,
+.menu .active {
+  color: var(--black);
+}
+
 .my-masonry-grid {
   display: flex;
   margin-left: -24px;
@@ -281,13 +297,15 @@ main {
 }
 
 .info h2 {
-  font-size: 1.1em;
+  font-size: 1em;
   top: 45%;
+  margin-bottom: 8px;
 }
 
 .info h3 {
-  font-size: 0.8em;
-  top: 47.5%;
+  font-size: 0.75em;
+  top: 45%;
+  margin-bottom: 8px;
 }
 
 .info:hover {
@@ -376,6 +394,10 @@ h1 {
       color: black;
     }
   }
+
+  p {
+    margin-bottom: 20px;
+  }
 }
 
 .embed-container {
@@ -406,9 +428,12 @@ h1 {
   width: 60%;
   float: right;
   padding-top: inherit;
+  .embed-container {
+    margin-bottom: 2rem;
+  }
   img {
     width: 100%;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: block;
   }
 }
@@ -426,8 +451,11 @@ h1 {
   }
   .media {
     width: 57%;
+    .embed-container {
+      margin-bottom: 20px;
+    }
     img {
-      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 }
@@ -443,8 +471,11 @@ h1 {
   .media {
     width: 100%;
     padding-top: 30px;
+    .embed-container {
+      margin-bottom: 20px;
+    }
     img {
-      margin-top: 30px;
+      margin-bottom: 30px;
     }
   }
   .mb1 {
@@ -455,8 +486,11 @@ h1 {
 @media (max-width: 760px) {
   .media {
     padding-top: 20px;
+    .embed-container {
+      margin-bottom: 20px;
+    }
     img {
-      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 }
