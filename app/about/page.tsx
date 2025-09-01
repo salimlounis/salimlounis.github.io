@@ -22,7 +22,7 @@ export default async function About() {
               contacter.
             </p>
             <p className="mb1">
-              ⅕ du{" "}
+              Co-fondateur du{" "}
               <a
                 href="http://collectifblackbox.com/"
                 target="_blank"
@@ -34,7 +34,7 @@ export default async function About() {
             </p>
             <p className="mb1">
               Tous les projets présentés sur ce site incluent à la fois des
-              travaux personnels et professionnels..
+              projets personnels et professionnels.
             </p>
             <p className="mb1">
               Si vous avez des demandes, des commentaires ou des questions,
@@ -55,6 +55,7 @@ export default async function About() {
           </div>
         </div>
         {/* Media section (same style as Project.tsx) */}
+        {/*
         <div className="media no-padding-top">
           <div className="gif-container">
             <Image
@@ -67,6 +68,7 @@ export default async function About() {
             />
           </div>
         </div>
+         */}
       </div>
       <Footer />
     </main>
