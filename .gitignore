@@ -53,3 +53,9 @@ Desktop.ini
 
 # Next.js export directories
 export/
+
+# Ignore everything inside originals/
+originals/*
+
+# But keep the placeholder
+!*/.gitkeep

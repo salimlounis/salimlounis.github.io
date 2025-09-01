@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "optimize": "node scripts/optimizeImages.js"
+    "optimize": "node scripts/optimizeImages.mjs"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
