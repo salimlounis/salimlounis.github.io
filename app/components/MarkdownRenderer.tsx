@@ -10,6 +10,7 @@ interface MarkdownRendererProps {
 const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
   return (
     <ReactMarkdown
+      className="md-content"
       remarkPlugins={[remarkGfm]}
       components={{
         a: ({ node, ...props }) => (

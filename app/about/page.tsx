@@ -1,6 +1,7 @@
 // app/project/[id]/page.tsx
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default async function About() {
   return (
@@ -51,6 +52,19 @@ export default async function About() {
                 CURRICULUM VITAE
               </a>
             </p>
+          </div>
+        </div>
+        {/* Media section (same style as Project.tsx) */}
+        <div className="media no-padding-top">
+          <div className="gif-container">
+            <Image
+              src="/img/about/me.gif" // put your gif in /public/img/about/
+              alt="Salim Lounis"
+              width={400}
+              height={400}
+              unoptimized // ensures GIF animates properly
+              className="gif-half"
+            />
           </div>
         </div>
       </div>
