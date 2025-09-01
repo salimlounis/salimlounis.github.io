@@ -2,13 +2,13 @@
 title: "Chimes"
 year: 2017
 priority: 0
-cover: "chimes.jpg"
+cover: "chimes.webp"
 images:
-  - chimes1.jpg
-  - chimes2.jpg
-  - chimes3.jpg
-  - chimes4.jpg
-  - chimes5.jpg
+  - chimes1.webp
+  - chimes2.webp
+  - chimes3.webp
+  - chimes4.webp
+  - chimes5.webp
 video: https://player.vimeo.com/video/273702775
 link: https://qdsinternational.com/installations/chimes/
 ---

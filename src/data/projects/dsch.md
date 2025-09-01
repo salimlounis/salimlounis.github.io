@@ -1,15 +1,15 @@
 ---
 title: "DSCH - Allegro Molto"
 year: 2015
-cover: "dsch.jpg"
+cover: "dsch.webp"
 images:
-  - molinari3.jpg
-  - molinari4.jpg
-  - molinari7.jpg
-  - molinari1.jpg
-  - molinari2.jpg
-  - molinari5.jpg
-  - molinari6.jpg
+  - molinari3.webp
+  - molinari4.webp
+  - molinari7.webp
+  - molinari1.webp
+  - molinari2.webp
+  - molinari5.webp
+  - molinari6.webp
 video: https://player.vimeo.com/video/198605998
 link: https://www.youtube.com/watch?v=A00-7ozN-N8
 ---

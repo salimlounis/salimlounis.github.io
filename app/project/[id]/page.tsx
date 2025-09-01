@@ -24,7 +24,7 @@ export async function generateStaticParams() {
 }
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
-  const project: Project = loadProjectById(params.id);
+  const project: Project = loadProjectById("projects", params.id);
   return (
     <main>
       <Header />

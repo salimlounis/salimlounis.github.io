@@ -10,7 +10,8 @@
     "deploy": "yarn build && yarn pages",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next lint --fix"
+    "lint:fix": "next lint --fix",
+    "optimize": "node scripts/optimizeImages.mjs"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
@@ -25,12 +26,14 @@
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
-    "remixicon": "^4.3.0"
+    "remixicon": "^4.3.0",
+    "sharp": "^0.34.3"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
     "postcss": "^8",

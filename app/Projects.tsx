@@ -1,8 +1,9 @@
 // src/components/Projects.tsx
 "use client";
+import { useState } from "react";
+
 import Link from "next/link";
-import { Project } from "../src/types/Project";
-import { Work } from "../src/types/Work";
+import { Project, Work } from "../src/types/Project";
 import Image from "next/image";
 import Masonry from "react-masonry-css";
 
@@ -12,6 +13,7 @@ interface ProjectsProps {
 }
 
 export default function Projects({ projectslist, workslist }: ProjectsProps) {
+  const [filter, setFilter] = useState<"all" | "projects" | "works">("all");
   const itemlist = projectslist.concat(workslist);
 
   itemlist.sort((a, b) => {
@@ -20,6 +22,13 @@ export default function Projects({ projectslist, workslist }: ProjectsProps) {
     } else {
       return (a.priority ?? Infinity) - (b.priority ?? Infinity);
     }
+  });
+
+  const filteredItems = itemlist.filter((item) => {
+    if (filter === "all") return true;
+    return filter === "works"
+      ? item.type === "works"
+      : item.type === "projects";
   });
 
   const breakpointColumnsObj = {
@@ -32,19 +41,42 @@ export default function Projects({ projectslist, workslist }: ProjectsProps) {
   return (
     <div id="warpSite" className="full">
       <div className="wrapper">
+        <div className="flex gap-6 mb-6 menu">
+          <span>
+            <button
+              onClick={() => setFilter("all")}
+              className={filter === "all" ? "active" : ""}
+            >
+              Tous/
+            </button>
+          </span>
+          <span>
+            <button
+              onClick={() => setFilter("projects")}
+              className={filter === "projects" ? "active" : ""}
+            >
+              Personnels/
+            </button>
+          </span>
+          <span>
+            <button
+              onClick={() => setFilter("works")}
+              className={filter === "works" ? "active" : ""}
+            >
+              Professionnels/
+            </button>
+          </span>
+        </div>
+
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
-          {itemlist.map((project, index) => (
+          {filteredItems.map((project, index) => (
             <div key={index} className="gridItem">
               {project.type === "works" ? (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link href={`/work/${project.id}`}>
                   <div className="item">
                     <Image
                       src={`/img/cover/${project.cover}`}
@@ -55,10 +87,11 @@ export default function Projects({ projectslist, workslist }: ProjectsProps) {
                     />
                     <div className="info">
                       <h2>{project.title}</h2>
+                      <h3>{project.agence}</h3>
                       <h3>{project.year}</h3>
                     </div>
                   </div>
-                </a>
+                </Link>
               ) : (
                 <Link href={`/project/${project.id}`}>
                   <div className="item">

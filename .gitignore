@@ -27,6 +27,7 @@ yarn-error.log*
 
 # MacOS
 .DS_Store
+._*
 
 # Windows
 Thumbs.db
@@ -52,3 +53,9 @@ Desktop.ini
 
 # Next.js export directories
 export/
+
+# Ignore everything inside originals/
+originals/*
+
+# But keep the placeholder
+!*/.gitkeep

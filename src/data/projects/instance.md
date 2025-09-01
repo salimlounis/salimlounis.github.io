@@ -1,12 +1,12 @@
 ---
 title: "Instance"
 year: 2017
-cover: "instance.jpg"
+cover: "instance.webp"
 images:
-  - instance2.jpg
-  - instance1.jpg
-  - instance3.jpg
-  - instance4.jpg
+  - instance2.webp
+  - instance1.webp
+  - instance3.webp
+  - instance4.webp
 
 video: https://player.vimeo.com/video/207954294
 
