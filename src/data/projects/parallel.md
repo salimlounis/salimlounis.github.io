@@ -2,11 +2,11 @@
 title: "PARALLEL"
 year: 2018
 priority: 0
-cover: "parallel.jpg"
+cover: "parallel.webp"
 images:
-  - 5.png
-  - 8.png
-  - 2.png
+  - 5.webp
+  - 8.webp
+  - 2.webp
 video: https://player.vimeo.com/video/314518168
 ---
 

@@ -3,12 +3,12 @@ title: "HVBRD"
 year: 2016
 priority: 1
 class: "grid-item"
-cover: "hvbrd.jpg"
+cover: "hvbrd.webp"
 
 images:
-  - hvbrd1.jpg
-  - hvbrd2.jpg
-  - hvbrd3.jpg
+  - hvbrd1.webp
+  - hvbrd2.webp
+  - hvbrd3.webp
 
 video: https://player.vimeo.com/video/159735751
 #link: https://www.youtube.com/watch?v=A00-7ozN-N8

@@ -3,7 +3,7 @@ title: "NBA Countdown on ESPN"
 agence: "Moment Factory"
 year: 2020
 priority: 0
-cover: "espn.jpg"
+cover: "espn.webp"
 video: "https://player.vimeo.com/video/471148772"
 link: "https://momentfactory.com/products/opening-sequences-nba-on-espn"
 ---

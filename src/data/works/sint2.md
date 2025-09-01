@@ -2,7 +2,7 @@
 title: "Singapore Changi Airport – Dreamscape"
 agence: "Moment Factory"
 year: 2023
-cover: "sint2.jpg"
+cover: "sint2.webp"
 video: "https://player.vimeo.com/video/1063677437"
 link: "https://momentfactory.com/products/singapore-changi-airport"
 ---

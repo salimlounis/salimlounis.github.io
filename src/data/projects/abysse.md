@@ -2,10 +2,10 @@
 title: "Abysse"
 year: 2016
 priority: 0
-cover: "abysse.jpg"
+cover: "abysse.webp"
 images:
-  - 1.jpg
-  - 2.jpg
+  - 1.webp
+  - 2.webp
 video: https://player.vimeo.com/video/267300855
 ---
 

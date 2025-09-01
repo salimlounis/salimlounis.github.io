@@ -2,7 +2,7 @@
 title: "Labo – Participation-Based Multimedia Experience"
 agence: "Moment Factory"
 year: 2023
-cover: "labo.jpg"
+cover: "labo.webp"
 video: "https://player.vimeo.com/video/851003662"
 link: "https://momentfactory.com/blogs/lab/participation-based-multimedia-experiences-1"
 ---

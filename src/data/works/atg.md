@@ -2,7 +2,7 @@
 title: "AT&T Discovery District"
 agence: "Moment Factory"
 year: 2020
-cover: "atg.jpg"
+cover: "atg.webp"
 video: "https://player.vimeo.com/video/577189227"
 link: "https://momentfactory.com/products/att-discovery-district"
 ---

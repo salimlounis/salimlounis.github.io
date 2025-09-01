@@ -2,7 +2,7 @@
 title: "Extended Reality Livestream"
 agence: "Moment Factory – Lab"
 year: 2020
-cover: "xrStage.jpg"
+cover: "xrStage.webp"
 video: "https://player.vimeo.com/video/497650222"
 link: "https://momentfactory.com/blogs/lab/extended-reality-livestream"
 ---

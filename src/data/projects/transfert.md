@@ -2,11 +2,11 @@
 title: "Transfert"
 year: 2017
 priority: 1
-cover: "transfert.jpg"
+cover: "transfert.webp"
 images:
-  - transfert1.jpg
-  - transfert2.jpg
-  - transfert3.jpg
+  - transfert1.webp
+  - transfert2.webp
+  - transfert3.webp
 video: https://player.vimeo.com/video/232264917
 ---
 

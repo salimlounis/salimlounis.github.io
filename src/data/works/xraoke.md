@@ -2,7 +2,7 @@
 title: "The XRaoke"
 agence: "Moment Factory"
 year: 2023
-cover: "xraoke.jpg"
+cover: "xraoke.webp"
 video: "https://player.vimeo.com/video/831265961"
 link: "https://momentfactory.com/blogs/lab/the-xraoke-an-xr-karaoke-experience"
 ---

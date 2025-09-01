@@ -2,7 +2,7 @@
 title: "Nova Lumina"
 agence: "Moment Factory"
 year: 2021
-cover: "nova-lumina.jpg"
+cover: "nova-lumina.webp"
 video: "https://player.vimeo.com/video/179048368"
 link: "https://momentfactory.com/work/all/nova-lumina"
 ---

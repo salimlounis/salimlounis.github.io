@@ -2,12 +2,12 @@
 title: "The Perfume House"
 year: 2019
 agence: "XYZ Technologie Culturelle"
-cover: "perfumeHouse.jpg"
+cover: "perfumeHouse.webp"
 images:
-  - perfumeHouse.jpg
-  - perfumeHouse2.jpg
-  - perfumeHouse1.jpg
-  - perfumeHouse4.jpg
+  - perfumeHouse.webp
+  - perfumeHouse2.webp
+  - perfumeHouse1.webp
+  - perfumeHouse4.webp
 
 link: "https://www.xyztechnologies.com/realisations/integration-audiovisuelle-al-shindagha-maison-du-parfum/"
 ---

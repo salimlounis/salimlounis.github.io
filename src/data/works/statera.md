@@ -2,13 +2,13 @@
 title: "Statera, l’archipel fabuleux"
 year: 2018
 agence: "XYZ Technologie Culturelle"
-cover: "statera.jpg"
+cover: "statera.webp"
 images:
-  - statera4.jpg
-  - statera2.jpg
-  - statera3.jpg
-  - statera5.jpg
-  - statera1.jpg
+  - statera4.webp
+  - statera2.webp
+  - statera3.webp
+  - statera5.webp
+  - statera1.webp
 video: https://player.vimeo.com/video/286958944
 link: https://www.xyztechnologies.com/en/realisations/statera-larchipel-fabuleux
 ---

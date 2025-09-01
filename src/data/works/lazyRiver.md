@@ -2,7 +2,7 @@
 title: "Kaleidoscope Kavern – Lazy River"
 agence: "Moment Factory"
 year: 2023
-cover: "lazyRiver.jpg"
+cover: "lazyRiver.webp"
 video: "https://player.vimeo.com/video/1010675474"
 link: "https://momentfactory.com/products/kaleidoscope-kavern-lazy-river"
 ---

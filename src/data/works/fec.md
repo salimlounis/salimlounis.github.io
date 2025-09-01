@@ -2,12 +2,12 @@
 title: "Messages du Cœur"
 agence: "Moment Factory"
 year: 2022
-cover: "fec.jpg"
+cover: "fec.webp"
 images:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - 1.webp
+  - 2.webp
+  - 3.webp
+  - 4.webp
 link: "https://momentfactory.com/products/messages-from-the-heart"
 ---
 

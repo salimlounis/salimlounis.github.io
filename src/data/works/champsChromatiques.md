@@ -2,11 +2,11 @@
 title: "Champs chromatiques"
 agence: "Moment Factory"
 year: 2021
-cover: "champs-chromatiques.jpg"
+cover: "champs-chromatiques.webp"
 images:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - 1.webp
+  - 2.webp
+  - 3.webp
 link: "https://momentfactory.com/products/champs-chromatiques"
 ---
 

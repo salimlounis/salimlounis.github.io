@@ -2,11 +2,11 @@
 title: "Flowing Forces"
 agence: "Moment Factory"
 year: 2023
-cover: "flowing-forces.jpg"
+cover: "flowing-forces.webp"
 images:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - 1.webp
+  - 2.webp
+  - 3.webp
 #video: "https://player.vimeo.com/video/477195960"
 link: "https://momentfactory.com/products/flowing-forces"
 ---

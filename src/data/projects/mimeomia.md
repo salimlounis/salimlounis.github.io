@@ -2,11 +2,11 @@
 title: "Ever Expending Mimeomia"
 year: 2016
 class: "grid-item"
-cover: "mimeomia.jpg"
+cover: "mimeomia.webp"
 
 images:
-  - 1.jpg
-  - 2.jpg
+  - 1.webp
+  - 2.webp
 
 video: https://www.youtube.com/embed/1b2XCt0l1os?si=TshMQiYnD3XmWcFe
 #link: https://www.youtube.com/watch?v=A00-7ozN-N8

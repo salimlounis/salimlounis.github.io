@@ -2,7 +2,7 @@
 title: "Animistic Imagery"
 agence: "Moment Factory"
 year: 2020
-cover: "animistic-imagery.jpg"
+cover: "animistic-imagery.webp"
 video: "https://player.vimeo.com/video/477195960"
 link: "https://momentfactory.com/products/animistic-imagery"
 ---

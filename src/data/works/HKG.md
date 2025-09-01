@@ -2,7 +2,7 @@
 title: "Hong Kong International Airport"
 agence: "Moment Factory"
 year: 2022
-cover: "hkg.jpg"
+cover: "hkg.webp"
 video: "https://player.vimeo.com/video/846740281"
 link: "https://momentfactory.com/products/hong-kong-international-airport"
 ---

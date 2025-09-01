@@ -2,12 +2,12 @@
 title: "Lunice – Performances hybrides et connectées"
 agence: "Moment Factory"
 year: 2024
-cover: "lunice.jpg"
+cover: "lunice.webp"
 images:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - 1.webp
+  - 2.webp
+  - 3.webp
+  - 4.webp
 link: "https://momentfactory.com/blogs/lab/lunice"
 ---
 

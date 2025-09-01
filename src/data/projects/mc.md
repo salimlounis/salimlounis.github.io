@@ -2,14 +2,14 @@
 title: "Mémoire Mollective"
 year: 2016
 priority: 0
-cover: "mc.jpg"
+cover: "mc.webp"
 images:
-  - memoire1.jpg
-  - memoire2.jpg
-  - memoire3.jpg
-  - memoire4.jpg
-  - memoire5.jpg
-  - memoire6.jpg
+  - memoire1.webp
+  - memoire2.webp
+  - memoire3.webp
+  - memoire4.webp
+  - memoire5.webp
+  - memoire6.webp
 video: https://player.vimeo.com/video/175131447
 ---
 

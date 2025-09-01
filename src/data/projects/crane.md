@@ -2,11 +2,11 @@
 title: "Crane"
 year: 2017
 priority: 2
-cover: "crane.jpg"
+cover: "crane.webp"
 images:
-  - crane2.jpg
-  - crane1.jpg
-  - crane3.jpg
+  - crane2.webp
+  - crane1.webp
+  - crane3.webp
 video: https://player.vimeo.com/video/226565453
 ---
 

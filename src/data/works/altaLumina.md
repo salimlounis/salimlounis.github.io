@@ -2,7 +2,7 @@
 title: "Alta Lumina"
 agence: "Moment Factory"
 year: 2020
-cover: "gets.jpg"
+cover: "gets.webp"
 video: "https://player.vimeo.com/video/462688671"
 link: "https://momentfactory.com/products/alta-lumina"
 ---

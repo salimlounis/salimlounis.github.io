@@ -2,7 +2,7 @@
 title: "Oriens Lumina"
 agence: "Moment Factory"
 year: 2022
-cover: "oriens-lumina.jpg"
+cover: "oriens-lumina.webp"
 video: "https://player.vimeo.com/video/841961716"
 link: "https://momentfactory.com/products/oriens-lumina"
 ---

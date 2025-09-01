@@ -2,7 +2,7 @@
 title: "Super Nintendo World"
 agence: "Moment Factory"
 year: 2025
-cover: "snw.jpg"
+cover: "snw.webp"
 video: "https://www.youtube.com/embed//m1kNEatl8oU?si=pJyvXvQpCfDyfw8B"
 link: "https://momentfactory.com/products/super-nintendo-world"
 ---

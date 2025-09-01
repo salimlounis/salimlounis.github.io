@@ -2,7 +2,7 @@
 title: "Arctic Adventure"
 agence: "Moment Factory"
 year: 2022
-cover: "arctic-adventure.jpg"
+cover: "arctic-adventure.webp"
 video: "https://player.vimeo.com/video/552483292"
 link: "https://momentfactory.com/products/arctic-adventure?_pos=3&_sid=b65ead282&_ss=r"
 ---

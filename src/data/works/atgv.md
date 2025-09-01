@@ -2,7 +2,7 @@
 title: "The Visualizer"
 agence: "Moment Factory"
 year: 2021
-cover: "atgv.jpg"
+cover: "atgv.webp"
 video: "https://player.vimeo.com/video/783682629"
 link: "https://momentfactory.com/products/att-visualizer"
 ---

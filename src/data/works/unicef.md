@@ -2,7 +2,7 @@
 title: "Heart Strings"
 agence: "Moment Factory"
 year: 2024
-cover: "unicef.jpg"
+cover: "unicef.webp"
 video: "https://player.vimeo.com/video/970037267"
 link: "https://momentfactory.com/products/heart-strings"
 ---

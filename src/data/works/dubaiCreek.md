@@ -2,13 +2,13 @@
 title: "Dubai Creek: Birth of a City"
 year: 2019
 agence: "XYZ Technologie Culturelle"
-cover: "dubaiCreek.jpg"
+cover: "dubaiCreek.webp"
 images:
-  - creek1.jpg
-  - creek2.jpg
-  - creek3.jpg
-  - creek5.jpg
-  - creek4.jpg
+  - creek1.webp
+  - creek2.webp
+  - creek3.webp
+  - creek5.webp
+  - creek4.webp
 video: "https://www.youtube.com/embed/xFRAKSTZ_vI?si=2KEBCWgqrKniPUNl"
 link: "https://www.xyztechnologies.com/en/realisations/birth-of-a-city/"
 ---
