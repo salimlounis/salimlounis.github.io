@@ -2,7 +2,7 @@
 title: "Lary Kidd – tournée Surhomme"
 year: 2019
 priority: 0
-cover: "laryKidd.webp"
+cover: "larykidd.webp"
 images:
   - 1.webp
   - 2.webp

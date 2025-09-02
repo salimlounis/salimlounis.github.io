@@ -7,13 +7,8 @@ video: "https://player.vimeo.com/video/1063677437"
 link: "https://momentfactory.com/products/singapore-changi-airport"
 ---
 
-**Dreamscape** est un jardin immersif situé à l’aéroport international Changi de Singapour, où un vaste ciel numérique reproduit en temps réel la lumière du jour et les conditions climatiques de l’aéroport. Par moments, ce ciel se transforme en un portail sous-marin captivant, offrant aux visiteurs une expérience poétique et changeante.
+**Dreamscape** est un jardin immersif à l’aéroport Changi de Singapour, où un ciel numérique reproduit en temps réel la lumière du jour et les conditions météo. Par moments, il se transforme en portail sous-marin captivant, offrant aux visiteurs une expérience poétique et changeante.
 
-Sur ce projet, j’ai été responsable de la conception et du développement du système de **show control** et des **API** intégrées à Unreal Engine, incluant :
-
-- **Données Climatique et Astronomique** de l’aéroport (conditions actuelles, cycles lunaires, position du soleil, heures précises de lever/coucher du soleil, etc).
-- **Système d’événements** pour déclencher des animations contextuelles (atterrissage d’avion, vol d’oiseaux, effets visuels spéciaux).
-- **Affichage N-display** : gestion et synchronisation d’un environnement N-display d’Unreal Engine, permettant de répartir le rendu d’une même scène 3D sur plusieurs machines et écrans afin de créer un ciel numérique ultra-large parfaitement synchronisé.
-- **Interface web** pour le contrôle à distance : modification des conditions météo à des fins de test, déclenchement manuel d’animations, lancement des applications et des machines, ainsi que supervision des statuts des applications et de l’équipement.
+J’ai conçu et développé le système de **show control** et les **API** intégrées à Unreal Engine : intégration des données climatiques et astronomiques (météo en direct, cycles lunaires, lever/coucher du soleil), gestion d’un **système d’événements** déclenchant des animations contextuelles (avions, oiseaux, effets spéciaux), synchronisation via **N-display** pour projeter un ciel ultra-large sur plusieurs machines et écrans, et mise en place d’une **interface web** permettant de tester la météo, lancer les animations, contrôler les applications et superviser l’ensemble du système.
 
 ---
