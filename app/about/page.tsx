@@ -14,11 +14,11 @@ export default async function About() {
             <p className="mb1">
               Je suis un artiste multidisciplinaire et développeur logiciel
               senior avec plus de 10 ans d’expérience dans la création
-              d'installations interactives.
+              d’installations interactives.
             </p>
             <p className="mb1">
               Actuellement à mon compte. Si vous avez une idée, un défi
-              technologique ou un projet artistique en tête, n'hésitez pas à me
+              technologique ou un projet artistique en tête, n’hésitez pas à me
               contacter.
             </p>
             <p className="mb1">
@@ -38,7 +38,7 @@ export default async function About() {
             </p>
             <p className="mb1">
               Si vous avez des demandes, des commentaires ou des questions,
-              n&apos;hésitez pas à me contacter 👉{" "}
+              n’hésitez pas à me contacter 👉{" "}
               <a href="mailto:lounissalim@gmail.com" className="regular">
                 lounissalim@gmail.com
               </a>
