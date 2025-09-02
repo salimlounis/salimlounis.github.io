@@ -10,10 +10,8 @@ images:
 link: "https://momentfactory.com/products/champs-chromatiques"
 ---
 
-**Champs Chromatiques** est un espace immersif et interactif conçu pour Bleu Lavande à Magog, Québec. Le public est invité à plonger dans un champ de lavande infini, composé de projections génératives et d’environnements sonores apaisants. L’expérience se déploie sur deux grands murs réfléchissants qui amplifient l’effet visuel, créant une sensation d’espace sans fin. Les visiteurs deviennent le vent qui fait danser les fleurs et peuvent interagir en jouant avec les pétales ou en les faisant tourbillonner.
+Espace immersif et interactif conçu pour Bleu Lavande à Magog, où le public plonge dans un champ de lavande infini fait de projections génératives et d’environnements sonores apaisants. Deux murs réfléchissants amplifient l’effet visuel et créent une impression d’espace sans fin, tandis que les visiteurs interagissent en faisant danser ou tourbillonner les fleurs virtuelles.
 
-Sur ce projet, j’ai conçu un Show Control personnalisé permettant d’orchestrer les comportements interactifs tout en assurant la communication fluide avec le système Q-SYS du client.
-
-En raison du contexte pandémique, j’ai également développé une interface web permettant à l’équipe de production de tester les comportements interactifs à distance, sans dépendance au système principal, tout au long du développement et de l’intégration.
+J’ai développé un Show Control personnalisé pour orchestrer les comportements interactifs et assurer une communication fluide avec le système Q-SYS du client. En raison du contexte pandémique, j’ai aussi conçu une interface web permettant à l’équipe de tester et ajuster les interactions à distance, sans dépendance au système principal, garantissant ainsi un suivi continu du développement et de l’intégration.
 
 ---

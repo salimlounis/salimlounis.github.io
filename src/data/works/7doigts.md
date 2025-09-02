@@ -1,5 +1,5 @@
 ---
-title: "Labo – Participation-Based Multimedia Experience"
+title: "Labo"
 agence: "Moment Factory"
 year: 2023
 cover: "labo.webp"
@@ -7,7 +7,7 @@ video: "https://player.vimeo.com/video/851003662"
 link: "https://momentfactory.com/blogs/lab/participation-based-multimedia-experiences-1"
 ---
 
-**Labo** est une expérience multimédia melangant cirque et interactivite basée sur la participation, conçue pour engager les visiteurs et créer une œuvre collective en temps réel.
+Expérience multimédia melangant cirque et interactivite basée sur la participation, conçue pour engager les visiteurs et créer une œuvre collective en temps réel.
 
 J’ai travaillé sur trois scènes dans ce spectacles :
 
