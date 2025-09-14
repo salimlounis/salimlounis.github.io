@@ -16,6 +16,6 @@ link: "https://sidlee.com/en/stories/2019/10/artefacts"
 
 Pour l’occasion, nous avons produit **Vu d’en haut**, une projection murale générative composée d’images aériennes de drones et satellites, retravaillées numériquement. L’œuvre invitait le public à contempler la beauté et la vulnérabilité de paysages méconnus, entre poésie visuelle et conscience écologique.
 
-🙏 Merci à [Anne-Marie Potvin](https://annemp.com/) pour son invitation, son organisation et sa vision, qui ont rendu possible ce beau projet et permis à notre collectif de s’impliquer.
+🙏 Merci à [Anne Murray-Potvin](https://annemp.com/) pour son invitation, son organisation et sa vision, qui ont rendu possible ce beau projet et permis à notre collectif de s’impliquer.
 
 ---
